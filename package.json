@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "name": "easy-cep",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "description": "Este projeto é minha primeira library no NPM.\r Trata de uma lib para consulta  de CEP através do viaCEP.\r Basicamente o dev passa o cep de um lugar e a lib retorna um json ou xml (o dev escolhe) com as informações sobre ele, exemplos abaixo:\r JSON\r {\r   \"cep\": \"01001-000\",\r   \"logradouro\": \"Praça da Sé\",\r   \"complemento\": \"lado ímpar\",\r   \"bairro\": \"Sé\",\r   \"localidade\": \"São Paulo\",\r   \"uf\": \"SP\",\r   \"unidade\": \"\",\r   \"ibge\": \"3550308\",\r   \"gia\": \"1004\"\r }",
+  "devDependencies": {},
+  "keywords": [],
+  "author": ""
+}
