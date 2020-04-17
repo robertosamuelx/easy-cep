@@ -2,7 +2,7 @@ const axios = require('axios').default;
 const baseURL = 'https://viacep.com.br/ws/';
 
 function getCepInJson(value){
-    return axios.get(baseURL.concat(cep, '/json'));
+    return axios.get(baseURL.concat(value, '/json'));
 }
 
 function getCepInXml(value){
