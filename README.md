@@ -1,4 +1,7 @@
 Trata-se de uma lib para consulta  de CEP através do viaCEP.
+
+#### AGORA ESCRITO EM TYPESCRIPT!
+
 Basicamente o dev passa o cep de um lugar e a lib retorna um json com as informações sobre ele, exemplos abaixo:
 JSON
 {
