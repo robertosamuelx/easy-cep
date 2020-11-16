@@ -17,10 +17,12 @@ A base da lib se baseia no Axios que está nas dependências.
 
 Modo de usar:
 - Instale a lib no seu projeto
-    npm install easy-cep
+    npm i easy-cep ou
+    yarn add easy-cep
 
 - Importe a lib no seu projeto
-    const easy-cep = require('easy-cep');
+    const easyCep = require('easy-cep'); //com JS
+    import easyCep from 'easy-cep' //com TS
 
 - Chame as funções como Promises
     easy_cep.getCepInJson('01001000').then((response) => {console.log(response.data)});

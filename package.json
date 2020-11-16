@@ -1,15 +1,22 @@
 {
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "typescript": "^4.0.5"
   },
   "name": "easy-cep",
   "version": "1.0.2",
   "main": "src/index.js",
   "license": "MIT",
   "description": "Trata-se de uma lib para consulta  de CEP através do viaCEP.Basicamente o dev passa o cep de um lugar e a lib retorna um json com as informações sobre ele.",
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^14.14.7"
+  },
   "keywords": [
-    "cep","ws","viacep","endereço"
+    "cep",
+    "ws",
+    "viacep",
+    "endereço"
   ],
   "author": "robertosamuelx",
   "repository": "git+https://github.com/robertosamuelx/easy-cep.git",
