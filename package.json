@@ -4,7 +4,7 @@
     "typescript": "^4.0.5"
   },
   "name": "easy-cep",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "main": "src/index.js",
   "license": "MIT",
   "description": "Trata-se de uma lib para consulta  de CEP através do viaCEP.Basicamente o dev passa o cep de um lugar e a lib retorna um json com as informações sobre ele.",
